@@ -1,0 +1,253 @@
+
+body{
+    overflow-x: hidden;
+}
+
+
+/*  */
+.body-section{
+
+    width: 100vw; 
+     margin: 30vh auto;  
+}
+.profile{
+    font-family: poppins;
+    align-items: center;
+    display: flex;
+    img{
+        border-radius: 50vw;
+        width: 50px;
+    }
+    gap: 1vw;
+    
+ }
+ 
+ .about-title{
+    display: flex;
+    margin-top: 2cm;
+    
+    }
+    
+#group-button{
+    width: 4cm;
+    height: 1.5cm;
+    border-radius: 0.3cm;
+    color: black;
+    background-color: white;
+    margin-left: 7cm;
+    margin-top: 0.5cm;
+}
+.blog{
+    margin-left: 4cm;
+    
+    h1{
+        text-decoration: underline;
+        font-size: 50px;
+        color: #A61F2B;
+
+    }
+    p{
+        
+        color:black;
+        line-height: 0.8cm;
+        margin-top: 1.5cm;
+        
+    }
+}
+.blog-image{
+    width: 30vw;
+    h2{
+        font-size: xx-large;
+        color: #A61F2B;
+    }
+    img{
+        width: 30vw;
+        margin-left: 1cm;
+
+    }
+}
+
+.blog-info{
+    display: flex;
+   
+    p{
+        width: 50vw;
+        margin-left: 2cm;
+    }
+}
+
+
+.reflections{
+    width: 50vw;
+    font-size: 18px;
+    color: black;
+    height: 60vh;
+    margin-top: 1cm;
+    line-height: 0.8cm;
+ }
+ hr{
+    color: black;
+ }
+
+.excerpt{
+    color: white;
+    padding: 5vw;
+    background-color:black;
+    text-align: center;
+    width: 25%;
+    border-radius: 1cm;
+    margin-left: 2cm;
+    p{
+        margin-left: -1cm;
+        width: 30vw;
+        margin-top: 3cm;
+        font-size: 18px;
+    }
+}
+
+#reflection-title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(175, 42, 42);
+}
+
+ /* navigation */
+
+.fa-solid {
+    color: rgb(175, 42, 42);
+}
+nav {
+    display: flex;
+    gap: 10vw;
+    a {
+        text-decoration: none;
+        color:black;
+        font-size: x-large;
+
+    }
+
+} 
+
+.title-intro{
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(images/back.jpeg);
+background-repeat: no-repeat;
+position: relative;
+height: 80vh;
+width: 100%;
+background-size: cover;
+
+}
+#book-intro{
+    width: 30vw;
+    height: 20vh;
+    border-radius: 0.3cm;
+    position: absolute;
+    background-color: white;
+    color: rgb(175, 42, 42);
+    margin-left: 15cm;
+    margin-top: 7cm;
+    padding: 3vh;
+    font-size: xx-large;
+    text-align: center;
+    box-shadow: 5px 5px 5px  #babaca;
+    
+}
+#book-button{
+    width: 4cm;
+    height: 1.5cm;
+    border-radius: 0.3cm;
+    cursor: pointer;
+    color: white;
+    background-color: #234457;
+    border: none;
+    position: absolute;
+    top: 4cm;
+    margin-left: -1.8cm;
+ }
+        #book-button:hover{
+background-color:rgb(175, 42, 42);
+        }
+
+#against{
+border-radius: 0.5cm;
+margin-right: 5cm;
+}
+#against:hover{
+    width: 13.5cm;
+}
+#advert{
+    height: 10vh;
+    background-color: black;
+}
+#book-logo{
+    width: 1.5cm;
+    height: 1.5cm;
+    border-radius: 0.3cm;
+    margin-left: 12cm;
+    margin-top: 0.5cm;
+}
+
+
+footer {
+    margin-top: 2cm;
+    padding-top: 2vh;
+    height: 55vh;
+    width: 100vw;
+    background-color: #040505;
+
+    a {
+        color: white;
+        font-size: small;
+    }
+
+    h2 {
+        font-size: xxx-large;
+        color: white;
+        text-align: center;
+    }
+
+}
+
+#socials {
+    position: absolute;
+    gap: 3cm;
+    left: 50%;
+    margin-top: 4cm;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50vw;
+    padding-top: 1vh;
+    font-size: large;
+    color: white;
+}
+.join-us input{
+    margin-top: 1vh;
+    width: 25vw;
+    height: 5vh;
+}
+.join-us button{
+    cursor: pointer;
+    width: 10vw;
+    height: 5vb;
+}
+.join-us button:hover{
+    background-color: #234457;
+    color: white;
+}
+#my-logo{
+    width: 2cm;
+    height: 2cm;
+    margin-left: 2cm;
+    border-radius: 0.3cm;
+    margin-top: 1cm;
+}
+
+
+
